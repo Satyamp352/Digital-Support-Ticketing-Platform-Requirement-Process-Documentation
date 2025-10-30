@@ -1,0 +1,355 @@
+Date: Thu, 30 Oct 2025 09:40:17 +0000 (UTC)
+Message-ID: <1556214827.3.1761817217777@043d26fd1552>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_2_888477042.1761817217776"
+
+------=_Part_2_888477042.1761817217776
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Functional Requirements Document (FRD)</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Functional Requirements Document (FRD)</h1>
+    <div class=3D"Section1">
+        <p><strong>Project:</strong> EvolutionCo Digital Project Management=
+ &amp; Client CRM System<br><strong>Version:</strong> 1.0<br><strong>Date:<=
+/strong> <time datetime=3D"2025-11-21" class=3D"date-future">21 Nov 2025</t=
+ime> <br><strong>Prepared By:</strong> Satyam Pandey, Business Analyst<br><=
+strong>Approved By:</strong> Pending - CEO Mr. Rajiv Sharma, PM Ms. Anjali =
+Mehta, Tech Lead Mr. Jordan</p>
+<h2 id=3D"FunctionalRequirementsDocument(FRD)-Introduction">Introduction</h=
+2>
+<h3 id=3D"FunctionalRequirementsDocument(FRD)-Purpose">Purpose</h3>
+<p>To detail how the system will implement BRD requirements, including work=
+flows, interfaces, and logic.</p>
+<h3 id=3D"FunctionalRequirementsDocument(FRD)-References">References</h3>
+<p><a data-card-appearance=3D"inline" href=3D"https://satyamp352.atlassian.=
+net/wiki/x/BID4AQ" rel=3D"nofollow">https://satyamp352.atlassian.net/wiki/x=
+/BID4AQ</a> <br></p>
+<p><strong>Scope</strong></p>
+<p>Covers functional specs for MVP modules; out-of-scope: non-functional li=
+ke performance (in separate NFRD).</p>
+<h2 id=3D"FunctionalRequirementsDocument(FRD)-FunctionalSpecifications">Fun=
+ctional Specifications</h2>
+<h3 id=3D"FunctionalRequirementsDocument(FRD)-SystemOverview">System Overvi=
+ew</h3>
+<p>[Diagram: High-level architecture, e.g., React front-end, Node.js back-e=
+nd.]</p>
+<h3 id=3D"FunctionalRequirementsDocument(FRD)-Module1:ClientOnboarding">Mod=
+ule 1: Client Onboarding</h3>
+<ul>
+<li>
+<p>REQ-001 Spec: User logs in (RBAC), enters client details (fields: name, =
+email); system validates duplicates (logic: query database for matching ema=
+il).</p></li>
+</ul>
+<h3 id=3D"FunctionalRequirementsDocument(FRD)-Module2:ProposalTracking">Mod=
+ule 2: Proposal Tracking</h3>
+<ul>
+<li>
+<p>REQ-004 Spec: From lead, auto-populate proposal template; approval workf=
+low (steps: Submit =E2=86=92 Review by manager =E2=86=92 Approve/Reject ema=
+il notification).</p></li>
+</ul>
+<h3 id=3D"FunctionalRequirementsDocument(FRD)-Module3:ProjectExecution">Mod=
+ule 3: Project Execution</h3>
+<ul>
+<li>
+<p>REQ-005 Spec: Task assignment UI (dropdown for assignees, date picker fo=
+r deadlines); progress update slider (0-100%); notification logic (if deadl=
+ine &lt;24 hours, send email/SMS).</p></li>
+</ul>
+<h3 id=3D"FunctionalRequirementsDocument(FRD)-Module4:Invoicing">Module 4: =
+Invoicing</h3>
+<ul>
+<li>
+<p>REQ-006 Spec: Auto-generate PDF invoice on milestone complete (logic: Pu=
+ll data from project status, calculate amount); send via email.</p></li>
+</ul>
+<h3 id=3D"FunctionalRequirementsDocument(FRD)-Module5:Dashboards">Module 5:=
+ Dashboards</h3>
+<ul>
+<li>
+<p>REQ-007 Spec: KPI charts (e.g., revenue bar chart via Chart.js); filters=
+ for date/range.</p></li>
+</ul>
+<h2 id=3D"FunctionalRequirementsDocument(FRD)-DataRequirements">Data Requir=
+ements</h2>
+<ul>
+<li>
+<p>Entities: Client (ID, Name, Email); Project (ID, Tasks, Status).</p></li=
+>
+</ul>
+<h2 id=3D"FunctionalRequirementsDocument(FRD)-UserInterfaces">User Interfac=
+es</h2>
+<ul>
+<li>
+<p>[Attach wireframes, e.g., "Task Dashboard: List view with search bar."]<=
+/p></li>
+</ul>
+<h2 id=3D"FunctionalRequirementsDocument(FRD)-ErrorHandling">Error Handling=
+</h2>
+<ul>
+<li>
+<p>e.g., Duplicate lead: Show alert "Duplicate found =E2=80=93 merge or can=
+cel?"</p></li>
+</ul>
+<h2 id=3D"FunctionalRequirementsDocument(FRD)-AssumptionsandDependencies">A=
+ssumptions and Dependencies</h2>
+<ul>
+<li>
+<p>Depends on BRD; assumes API for notifications.</p></li>
+</ul>
+<h2 id=3D"FunctionalRequirementsDocument(FRD)-ApprovalSignatures">Approval =
+Signatures</h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"67=
+ac886c-e246-4379-a3ee-ca7f613ca707" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Name</p></th>
+<th class=3D"confluenceTh">
+<p>Role</p></th>
+<th class=3D"confluenceTh">
+<p>Signature</p></th>
+<th class=3D"confluenceTh">
+<p>Date</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>CEO Mr. Rajiv Sharma</p></td>
+<td class=3D"confluenceTd">
+<p>Sponsor</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"FunctionalRequirementsDocument(FRD)-"><br></h2>
+    </div>
+</body>
+</html>
+------=_Part_2_888477042.1761817217776--

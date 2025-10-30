@@ -1,0 +1,476 @@
+Date: Thu, 30 Oct 2025 09:38:31 +0000 (UTC)
+Message-ID: <1033879069.13.1761817111499@42cdb23624d6>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_12_1318907282.1761817111498"
+
+------=_Part_12_1318907282.1761817111498
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Business Requirements Document (BRD)</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Business Requirements Document (BRD)</h1>
+    <div class=3D"Section1">
+        <p><em><strong>Project</strong></em><strong>:</strong> EvolutionCo =
+Digital Project Management &amp; Client CRM System<br><em><strong>Version</=
+strong></em><strong>:</strong> 1.0<br><em><strong>Date</strong></em><strong=
+>:</strong> 21 October, 2025<br><em><strong>Prepared By</strong></em><stron=
+g>:</strong> Satyam Pandey, Business Analyst<br><em><strong>Approved By</st=
+rong></em><strong>:</strong> CEO Mr. Rajiv Sharma, PM Ms. Anjali Mehta<br><=
+br><strong>INTRODUCTION</strong><br><br><em><strong><u>Purpose </u></strong=
+>- </em>The purpose of this internal CRM system is to digitize client lifec=
+ycle management, from lead generation to project closure, to address ineffi=
+ciencies in manual processes and improve operational visibility.<br><br><em=
+><strong><u>Reference </u></strong></em>- <img height=3D"250" style=3D"marg=
+in: 2px; border: 1px solid #ddd; box-sizing: border-box; vertical-align: te=
+xt-bottom;" src=3D"e7a32fbc771ba65915a562cf6403383fbf1547ca45105e012fc0116e=
+4b8e4c51" width=3D"250"> <br><img height=3D"250" style=3D"margin: 2px; bord=
+er: 1px solid #ddd; box-sizing: border-box; vertical-align: text-bottom;" s=
+rc=3D"1726c08fb34f8b8769405a95da3d038d2649bc4eaff44f45518c5da756a3074d" wid=
+th=3D"250"> <br><img height=3D"250" style=3D"margin: 2px; border: 1px solid=
+ #ddd; box-sizing: border-box; vertical-align: text-bottom;" src=3D"bcd4652=
+99b069e65eaacf6bc5c67d76da84b7c68b19952064d31e15bb3f74e44" width=3D"250"> <=
+br><br><em><strong><u>Scope </u>- </strong></em>The system will cover clien=
+t onboarding, proposal tracking, project execution, invoicing, and KPI dash=
+boards. Out-of-scope: Third-party integrations, HR functionalities.<br><br>=
+<em><strong><u>Definitions</u> - </strong></em>Client Lifecycle: The end-to=
+-end process from lead to project closure; KPI: Key Performance Indicator, =
+such as project utilization rate.</p>
+<p><em><strong><u>Acronyms and Abbreviations</u></strong> - CRM: Customer R=
+elationship Management; BRD: Business Requirements Document; MVP: Minimum V=
+iable Product; RBAC: Role-Based Access Control.</em></p>
+<p><em><strong><u>Document Conventions</u> - </strong>Requirements are numb=
+ered as REQ-XXX; Priority: High/Medium/Low; Bold text indicates must-have r=
+equirements.</em></p>
+<h2 id=3D"BusinessRequirementsDocument(BRD)-Requirements">Requirements</h2>
+<ul>
+<li>
+<p><em><strong><u>User Interfaces</u></strong></em> - The system must have =
+a web-based dashboard accessible via desktop and mobile. <br><strong>REQ-00=
+1</strong>: Role-based login with SSO support (High Priority). <br><strong>=
+REQ-002</strong>: Customizable views for Sales, PMs, and Finance (Medium Pr=
+iority)</p></li>
+<li>
+<p><em><strong><u>Hardware Interfaces</u> -</strong> </em>No specific hardw=
+are interfaces required beyond standard web browsers. <strong>REQ-003</stro=
+ng>: Compatibility with internal servers for data storage (Low Priority).</=
+p></li>
+<li>
+<p><em><strong><u>Functional Requirements</u> - </strong></em>The system mu=
+st support client registration and onboarding. <br><strong>REQ-004:</strong=
+> Automated proposal creation from leads, with approval workflows (High Pri=
+ority).<br><strong>REQ-005:</strong> Task assignment and progress tracking =
+with notifications (High Priority).<br><strong>REQ-006:</strong> Auto-gener=
+ate invoices based on milestones (High Priority).<br><strong>REQ-007:</stro=
+ng> Admin dashboard for KPIs like revenue and utilization (Medium Priority)=
+.<br><strong>REQ-013:</strong> Auto-detect duplicate leads to prevent redun=
+dancy (High Priority) [Source: Sales Workshop].<br><strong>REQ-014:</strong=
+> Task assignment with alerts PMs Workshop (High)<br><strong>REQ-015:</stro=
+ng> Real-time payment tracking Finance Workshop( High)</p></li>
+<li>
+<p><em><strong><u>Performance Requirements</u></strong></em> - System must =
+support up to 50 concurrent users with &lt;3-second response times. <br><st=
+rong>REQ-008</strong>: Handle data for 1,000+ clients without slowdowns (Hi=
+gh Priority).</p></li>
+<li>
+<p><em><strong><u>Security</u> - </strong></em>Data encryption and RBAC man=
+datory. <br><strong>REQ-009</strong>: Restrict access to client data by rol=
+e (e.g., Sales views leads only) (High Priority).<br><strong>REQ-010</stron=
+g>: Audit logs for all changes (Medium Priority).</p></li>
+<li>
+<p><em><strong><u>Usability </u></strong></em>- Intuitive interface with mi=
+nimal training. <br><strong>REQ-011</strong>: Search functionality for clie=
+nts/projects (High Priority).<br><strong>REQ-012</strong>: Compliance with =
+accessibility standards (Medium Priority).</p></li>
+</ul>
+<h2 id=3D"BusinessRequirementsDocument(BRD)-AdditionalSections">Additional =
+Sections</h2>
+<p><strong>Assumptions and Dependencies</strong> - Assumes internal tech st=
+ack (React/Node.js); Depends on data migration from Google Sheets.</p>
+<p><strong>Risks and Mitigations</strong> - Risk: User resistance; Mitigati=
+on: Training sessions.</p>
+<p><strong>Approval Signatures - </strong>Table for sign-offs</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"67=
+ac886c-e246-4379-a3ee-ca7f613ca707" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Name</p></th>
+<th class=3D"confluenceTh">
+<p>Role</p></th>
+<th class=3D"confluenceTh">
+<p>Signature</p></th>
+<th class=3D"confluenceTh">
+<p>Date</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>CEO Mr. Rajiv Sharma</p></td>
+<td class=3D"confluenceTd">
+<p>Sponsor</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<p><br><br></p>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_12_1318907282.1761817111498
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/bcd465299b069e65eaacf6bc5c67d76da84b7c68b19952064d31e15bb3f74e44
+
+iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6CAMAAAC/MqoPAAADAFBMVEX19fXv7+98fHx1dXV9fX23
+t7eenp5wcHDn5+f09PTz8/Pd3d2SkpLY2Njt7e3Q0NCioqJycnKqqqq7u7uurq6CgoKGhobOzs7D
+w8PR0dGNjY3Hx8fj4+PGxsbS0tKoqKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAABYhwFnAAAFjUlEQVR4Xu3cC1viOBQG4PSacmkFiwMuoNn//6OGR53H+7oKoojQ
+SdILbVpdcJdWlu+dEdOc0zbHljBjC4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAADsAE3t2A5nuTTUvg8sdP1V7dthjmk5at9HHEtfO3cH2Jba8xnLVnu2Qlc7tmLts10y
+lmrPDqNqx+c2TP+ico76t7THpW/0JPwyc6H2eD17pneOgpkaEPLp21BR6e7UeHkLyGLiFtWeS99h
+6rzVpcdh45i62Yikpu8ypRbPPImbB4aXjoTKKb2Saa7dOoubjwftdKRMptpRhunLqj2rZATlUc5g
+I/WfJk9MtEr8/3vC18xgtfBU2VGvovRvAqXvI5S+jyorvZwXsM9UVnr1UPo+Qun7CKXvI5S+j1B6
+der1utpVkkpKF8XOoyvJhjUltUqqr6L0l0eHH+xWuOAuCQkeswnlqKJ0Uj8g09ZDj4jfyN9PCTmo
+5KhXcuEp0F/JU91o6J0HN+ClWy/ZK+rlXHiqpPTmuD4nb8Q1nvXxnJDGSz175a2c0suh/l5iSFO3
+yzh6f7Ugqem7LFeLbzbipkv9dETIpe+wfC1DvdV1ajWn2zLVY16UvrsKavGspknbZtMquHOvIH1n
+bVjLhulfVMnr+veA0rdssdGtn045L+vllK5vVMyipEGpHVuhB5vcHlxS6QUvLduwvzeFAwAAAAAA
+AAAAAMCa2D92rImpHRtjascHmNqRl36DHQu/jVJdeWyk9hTSxMXj996vdfPTGCGXxJ88qf2KL2w5
+I/PewlF64TMjtSNHW9QndfdO7V7PiGjD64J3OJN19ry2gms8AyouyWjUIac0oKdhJ4se+R8mHkkS
+ZD6lNPdRMpY1Dp7vZlG+26a0HaV0403GxPrNOt/QIU3e8BmcHcmDHsfk3jpMjsPlfdSPtlyw9qFI
+FY1k+CKn49FDGRTF5bDou1yxQ4lFe15P3OnCVqWHDf6wCvLGwFAvK9H4NhEml4aa9+MoWm+YJEl9
+2vdcaosNRffXMPEwEPcXJDGfDr0hZTJGbYe3o7T82r04NRmhT33vpE0afM9dOgizFCzE1+EL1BJ/
+xQaKS18FD0g00DSLGq2+OFws7vHkhlrxCBO0S8L1Wfx+fsbPuRMq3teexOStRj4L9xyNnomH/Noy
+1RJ58Qhlg4j7tvoyPVL0XH+3BxeD23dCjDn/Sr3rOCMJ8u/kgo2y0bnT1u9I9zpcatjTY/JTI6T5
+QnOz1xX/+vOVB8/jHiYeGg/p2DNvPIcf7uDfHgXORZybX1ukypMwGaFocOenIzsakIrFjSOb2Pz0
+lDe3OamjXo8bLBsMe+Q3+fyLdeIw/WNQ13iLDQvuFItPQRb38IbWpc10LNwbC5NObEOe4jKQWztJ
+TUaY3KTXDNIf8VQwzRFia0QTAXFuRjcFXIpdiBPnZ3w/ayq4MuJWSxMS508upnKM561J7uOo1GlC
+CK7NuZjik5jYW/xUOXtbmFq85fzaycCSRjRMf97Scj/5EEta1BbPXUtOGOE0ZxiDcPKgPTGdZoOZ
+dUO009BcQ4/yqe11o0nKDV8WVl892nEcPzl9ogDf42kqlpnmfMc7FQdTbFlZm6VSkxEOxTRn8Gmu
+z6e51VSTOerRNMd/6DP5JO7dPN707mXICm5nN+IcXD48i4xMsEDn4d1+qzWjfEeb/V0LA2PzKvvB
+Ylc/xkEwyX9Yx9FVKnYv9ta4lIH2JJiJzzqQW86vfd/gqWJWSEZ4vpzMrtvee/CLXLvvxf9e+Ob6
+4lT87+SfKt+TPgxafwW5ueXf0NSOb6oz5k9Dc6p2AwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAADAB34DrGYezkMLGdQAAAAASUVORK5CYII=
+------=_Part_12_1318907282.1761817111498
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/e7a32fbc771ba65915a562cf6403383fbf1547ca45105e012fc0116e4b8e4c51
+
+iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6CAMAAAC/MqoPAAADAFBMVEX19fXv7+98fHx1dXV9fX23
+t7eenp5wcHDn5+f09PTz8/Pd3d2SkpLY2Njt7e3Q0NCioqJycnKqqqq7u7uurq6CgoKGhobOzs7D
+w8PR0dGNjY3Hx8fj4+PGxsbS0tKoqKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAABYhwFnAAAE8UlEQVR4Xu3cCVPiSBTA8eYIHTkiCAy4gub7f6m1RrdmdGrW9RZR
+Mt2dg9AcClUksvx/jtB5/dLkTQ5mTIsQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALAD
+CnZgO9zJpGTHlngvFl/s2A5zy45rx5ZxneKnc3dAxbEjqzgVO7IVRTuwFZ8+2o3SxI7sMGkHVlsz
+fUPZ7PUvaY9LX+sk3Fj53Y54/cqo2OkGI7tDm0/fhpxKbzyVnl8D8f7QWFT7XPoOs69bPXkcNo5l
+Y7bHsNN3mVWLVz6Nm4clL90Tyqb0XC5zreb3uHl72Er3ZKlsB7Lw9Dxtj3LZguxYR3Ap9Z8mT19o
+rf7/7wF/UA6mC3e57fU8Sv8iKH0fUfo+yq30bN7AVsmt9PxR+j6i9H1E6fuI0vcRpeenWq3aoYzk
+UroudhzdSS45T+Igl+rzKP351lU7uxkuNCZCBLezCdnIo3RRPRRPzZu+0D+R//0kxGEuez2XG09B
+8UXcVUu1YuemEajSnefZO+rZ3HjKpfT6fXUsXkWj9Fi8HwtRe67O3nnLpvRs2D+XGMrUdBm3eDJd
+MOz0XTZXS7tci5sN2U73aHPpO2y+lmGx2XMPDtxes2zv80Xpu2tBLZ5TL8tWue4smLm3IH1nrVnL
+mukbyuV9/Wug9C17X2vqp5vN23o2pRfXKuY9o42yA1tRDNaZHpxR6QveWrZhfyeFAwAAAAAAAAA2
+5X8Y+IBvBxbx7cAn+HZguZW/YOeHT+fp2Bz/3I6k+UL8EM5j6nf6llo9UOKTaR9bWfoHRaec24HE
+uSh4L93ruWj+PnOPZyD1PZqCdMWZDORZGPSjR/Xl60eRdPptKWXqs2WC2+6tih7JIJWjvnVaXU8b
+041ONJARBsJnPVCjJWXLDceI0uKVw2GFJ4/U45HZ0Ibqku10ZAN+9Gy2oyOFI/teX0998aelhw31
+MO1UjUEpus9kegdSR2vpHCFO5InXkBVdRds7bU1fbRqIB5LDgvetG41h0pKVTUipyaHoyYHulRXX
+G8okshk/pLZYLUhH/9Gbv7j0aeehCKuNOgrHUm+2/m399ACyF6WZYJgaSgLpgTy9lh7DNynxyiak
+DeWJDqreuNwostTqA/7cEG9ioL7ewll2S28bJp1j9X0ZfSKD+uur/NvW0+IuZnKUn0EQlPWdxbkR
+40A8UK0l/SOdacYwkpXj0EX/cnJlWu1f3Y6ufhrZgB83uhVRUXvOzHZzU3u9Gjf82c4wknqKd1Yq
+JzkW4zl0JmM+oB7lX4NqwZ++VGpls2TUA/35TXr5tFLS50IUWWr1Xo9VCqKgM/V5Fc0S+KFfXB+Z
+f8cTXFOdS6Vzkp0dBZKB5kd5uHxKTtowbe5IaY+bhWgC3vfX93JhJrI+P2nJij7lHDlUF5DwKlUq
+DVRbNWRfX2hnO6frRk9RI53Tlx3XbUt9Tqqrmr6Y6YG0OBCu6+tX93r6pUzApCUrxzk1eaIuajWT
+3Xa9M32ZCyNLrd7r0WVOvUGN9FvIuH99e93/bbqc4Nfouq4ak5tHnTHTuUw65+e3+yB4UBfyi8nD
+6Ko1HSgJJNzC6L+DeMGkJStHvLfgH3HVeNMfd9J6CEZ35XTkK6lGl+1crd7r25LbB7LkLlD/2gAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAbNUfoWH3xtkoPmQAAAAASUVORK5CYII=
+------=_Part_12_1318907282.1761817111498
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/1726c08fb34f8b8769405a95da3d038d2649bc4eaff44f45518c5da756a3074d
+
+iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6CAMAAAC/MqoPAAADAFBMVEX19fXv7+98fHx1dXV9fX23
+t7eenp5wcHDn5+f09PTz8/Pd3d2SkpLY2Njt7e3Q0NCioqJycnKqqqq7u7uurq6CgoKGhobOzs7D
+w8PR0dGNjY3Hx8fj4+PGxsbS0tKoqKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAABYhwFnAAAFP0lEQVR4Xu3cDVPiOBgH8NC3VKAVFlR2AO19/w91zOrOKq7nqIii
+QjdpmjRNiyfO0crx/81Iw5OX9tmG4toAIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAADugYQa2w1+tbDO2xtKyns3YDvMd1zdj6/iu9eG2O8Bzzch7XM+MbIVlBrbiw7M9
+Ya/MyA6jZuB9Gzb/pGrO+pe0x6lv9CL8NGdpRsKBt7D6R/HCrOCKzbehptSDuf30EpPlLCjLvdB8
+h5nXrRP6XRS+0yBfkzCb7zIjl9A5lcVDO9RrhGpSr+Uy1+38kMW7w65eUyXHDFRh/pSVF7UcQXWM
+GWxr/2kK+YXWqP//TvgDJ86e3Nd21utI/YtA6vsIqe+j2lKv5g3sPbWlXj+kvo+Q+j5C6vsIqe8j
+pF6fZrNphipSS+o82df0TrLtzslBLdnXkfrTnc9Odkc8CVaExHf5BtWoI3XSPCTzzu2A8L/I38wJ
+OazlrNdy4ym2nsl9025Z/dsgZqm7T/k76tXceKol9fZD85W8kMB+tB5eCWk9NfN33qpJvRrm3yXG
+VFsu41vD7EnCbL7LCrn0nJYsBrSn13CF5jusmMvY6pz4Bwf+Sccxz3lZ891Vkkvoth3addpuycq9
+kuY7a8NcNmz+SbW8r38NSH3Llhst/fSreVuvJnVro2SWFR2UGdgKK95keXBFqZe8tWzD/i4KBwAA
+AAAAAAAAAIANRCWBQmwDkRkoE5mBj4jMwBrmX/sjwYgaIjNgitJ7pTTKhVORGch5vy/5t+4fV/hs
+4cQMrDN5t+34nD9MzXBmYgYyWd+JUfOfMs96akT5bZkG9ckZjemZCEbpY8Tnhpzwsj7qUUrVN8oE
+SdLTZGEUr2jz5WFpIeuuuvBB+nw0o6/eSFTLvatRA7ZVS1K+8XF4QR01b9YP6bekkue0XpRukxH6
+lLh0EA740FG2c1EQ26yeFUZ2encpatJT/rn8JmsxpMMwoJ5WUN1llx4dh2M5wfW+eiNRLYLaYNTz
+WV/RdSDHUUfVo73wtEtadExO6Ei0kgoTPkoeJ6sH9viwItbqkty7s1wTXVbvs8LoOr2lOnd/shNn
+8TVhvzusOLrWCorsMmufk3u1mEjrqzfKywY7vni+T4O3fBz+7T/qqGarG8JqH8fT4e/OhdaflKQ+
+EZs3b3Qxun4jxH5lP9onj02qnm3JRTRJw+7SJ28Wj5FL9vPXc0MrSKrLIys8qq9u0PrqjfLkYL3r
+o9iXSfFxkomnjooXmPOziXeVNlonkoUjj3hHbD7xl6JPs5mWzkMZ0OtFMN24x0euaCHnmSpE6UOy
+zQYRT3N99UZJQe09m72nns0nfhKU46ijUuvz2nHh253WXOYI8RqkwSv5+rZ0tv3iu+Pz6W9tTatW
+n+PcyU+mq7vLsqB3F/ggaiGd3ldj7F2N+uNl6TTSsjoYVUgPrffaaRSW5xkiVaIev3i4yZVDXOZs
+eySuInTQlCdCryeqe7pJCgPa9/0e1Qpad9Ekf5kTG9lCPI3MvWeD9fzwjB9ppI2jjmrML3M2u8wN
+2WVO+8flCmdd/UoTL5JX8GB6Nx3cJFVufL2YtllhdfvIW3B6fbnL44c4nnW1gtZduOGDtH7lYgX5
+vavBurN4IefITYuNwy8Z6qjOV7PFVTd8i3+Sq+Ct5MtQvoRh+g5VmY8u89guaxx3/onLLhlb1DAD
+teiz3yJiZ26GAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADg0/4AyntDQ44l
+phEAAAAASUVORK5CYII=
+------=_Part_12_1318907282.1761817111498--
