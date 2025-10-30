@@ -29,13 +29,10 @@ RACI Matrix – Defined stakeholder responsibilities and accountability.
 
 Documentation: Confluence, Microsoft Word
 
-Diagramming: Lucidchart, Draw.io
+Diagramming:  Draw.io, Mermaid.ai
 
 Agile Management: Jira
 
-Visualization: Power BI
-
-Analysis: Excel, SQL (for mock dataset insights)
 
 💡 Key Learnings
 
