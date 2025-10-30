@@ -11,27 +11,63 @@ Methodology: Agile Scrum
 
 Objective: To design an automated ticketing workflow for tracking, categorizing, and resolving customer issues efficiently.
 
-📑 Key Deliverables
+🧠 Project: Evolution – Business Analysis Case Study
+📁 Project Overview
 
-BRD (Business Requirements Document) – Defined scope, objectives, and high-level business needs.
+A full-fledged Business Analysis project demonstrating complete SDLC documentation — from initiation to closure.
+This repository simulates an end-to-end BA workflow for a digital transformation initiative called Evolution.
 
-FRD (Functional Requirements Document) – Detailed functional behavior and system features.
+🏗️ 1. Project Initiation
 
-RTM (Requirements Traceability Matrix) – Mapped requirements to test cases.
+Evolution Project Charter.xlsx – Defines scope, objectives, and key deliverables.
 
-BPMN Diagrams – Represented end-to-end customer query resolution process.
+Evolution – Stakeholder Register.docx – Lists key stakeholders, roles, and responsibilities.
 
-Use Case Diagrams & User Stories – Captured interactions between user roles and system features.
+Evolution Meeting Minutes.docx – Summary of key discussion points and decisions taken.
 
-RACI Matrix – Defined stakeholder responsibilities and accountability.
+🔍 2. Requirements Phase
+
+Business Requirements Document (BRD).doc – Captures business objectives and high-level requirements.
+
+Functional Requirements Document (FRD).doc – Detailed functional specifications and system features.
+
+Requirements Traceability Matrix (RTM).doc – Maps business requirements to technical implementation.
+
+⚙️ 3. Analysis & Design Phase
+
+GAP Analysis Document.doc – Identifies current vs. future state gaps.
+
+Full Process BPMN (sales – finance).png – Business process model showing end-to-end workflow.
+
+Risk Analysis Document.doc – Potential risks with mitigation strategies.
+
+🔄 4. Change & Testing Phase
+
+Change Request (CR) Document.doc – Template for managing project changes.
+
+UAT + Test Case Document + Evolution Completion.doc – User Acceptance Testing and results.
+
+Post-UAT + Quality & Performance Phase Document.doc – Quality assurance and performance validation.
+
+✅ 5. Project Closure Phase
+
+Project Closure + Summary.doc – Key learnings, deliverables, and project sign-off.
+
+🧩 6. Supporting Artifacts
+
+README.md – Repository overview and usage instructions.
 
 🧰 Tools & Techniques Used
 
-Documentation: Confluence, Microsoft Word
+Jira & Confluence for Agile documentation
 
-Diagramming:  Draw.io, Mermaid.ai
+Lucidchart for BPMN diagrams
 
-Agile Management: Jira
+Excel for project charter and tracking
+
+MS Word for BRD, FRD, and supporting docs
+
+Risk, GAP, and RTM matrices for detailed analysis
 
 
 💡 Key Learnings
